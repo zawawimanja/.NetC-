@@ -1,0 +1,5 @@
+  //Byte[] m = new Byte[3];
+                                        //Array.Copy(data, 0, m, 5, 8);
+
+                                        //Debug.WriteLine("Data: " + data);
+                                        //Debug.WriteLine("Data: " + m);
