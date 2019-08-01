@@ -1,5 +1,14 @@
-  //Byte[] m = new Byte[3];
-                                        //Array.Copy(data, 0, m, 5, 8);
+  int[] source = new int[5];
+        source[0] = 1;
+        source[1] = 2;
+        source[2] = 3;
+        source[3] = 4;
+        source[4] = 5;
 
-                                        //Debug.WriteLine("Data: " + data);
-                                        //Debug.WriteLine("Data: " + m);
+ int[] target = new int[5];
+        
+1. Array.Copy(data, 0, m, 5, 8);
+
+
+2. Array.Copy(source, target, 5);
+                                  
