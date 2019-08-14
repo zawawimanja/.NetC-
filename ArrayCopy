@@ -1,14 +1,40 @@
-  int[] source = new int[5];
-        source[0] = 1;
-        source[1] = 2;
+
+   public static void Main(string []args)
+    {
+        //
+        // Instantiate the source array.
+        //
+        int[] source = new int[5];
+        source[0] = 5;
+        source[1] = 4;
         source[2] = 3;
-        source[3] = 4;
-        source[4] = 5;
-
- int[] target = new int[5];
+        source[3] = 2;
+        source[4] = 1;
+        //
+        // Instantiate the target.
+        //
+        int[] target = new int[6];
+        //
+        // Copy first three elements in source to target.
+        //
+        Array.Copy(source, 0, target, 1, 4);
         
-1. Array.Copy(data, 0, m, 5, 8);
-
-
-2. Array.Copy(source, target, 5);
-                                  
+        //result is 
+        0
+        5
+        4
+        3
+        2
+        0
+        
+        //
+        // Display the result
+        //
+        Console.WriteLine("--- Destination array ---");
+        foreach (int value in target)
+        {
+            Console.WriteLine(value);
+        }
+    }
+    }
+}
