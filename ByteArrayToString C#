@@ -1,0 +1,5 @@
+string stringToConvert = "This will be converted into a byte array and back";
+byte[] buffer = Encoding.UTF8.GetBytes(stringToConvert);
+
+
+string converted = Encoding.UTF8.GetString(buffer, 0, buffer.Length);
