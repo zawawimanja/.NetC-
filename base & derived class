@@ -1,0 +1,1 @@
+The "B: A" syntax indicates that class B derives from class A. We use a colon character to indicate inheritance.
